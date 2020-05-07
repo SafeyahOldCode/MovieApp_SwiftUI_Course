@@ -13,6 +13,10 @@
 		0455D31C2460A89C007C12EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455D31B2460A89C007C12EC /* Assets.xcassets */; };
 		0455D31F2460A89C007C12EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0455D31E2460A89C007C12EC /* Preview Assets.xcassets */; };
 		0455D3222460A89C007C12EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0455D3202460A89C007C12EC /* LaunchScreen.storyboard */; };
+		0455D32A2460A962007C12EC /* secondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D3292460A962007C12EC /* secondView.swift */; };
+		0455D32D2460AFDB007C12EC /* MovieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0455D32C2460AFDB007C12EC /* MovieApp.swift */; };
+		04A3263B2461DD9D00B04FFE /* movieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3263A2461DD9D00B04FFE /* movieDetails.swift */; };
+		04A3263D24647A8B00B04FFE /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3263C24647A8B00B04FFE /* Movie.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		0455D31E2460A89C007C12EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0455D3212460A89C007C12EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0455D3232460A89C007C12EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0455D3292460A962007C12EC /* secondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondView.swift; sourceTree = "<group>"; };
+		0455D32C2460AFDB007C12EC /* MovieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieApp.swift; sourceTree = "<group>"; };
+		04A3263A2461DD9D00B04FFE /* movieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = movieDetails.swift; sourceTree = "<group>"; };
+		04A3263C24647A8B00B04FFE /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,9 @@
 			children = (
 				0455D3152460A899007C12EC /* AppDelegate.swift */,
 				0455D3172460A899007C12EC /* SceneDelegate.swift */,
-				0455D3192460A899007C12EC /* ContentView.swift */,
+				04A326362460B0A200B04FFE /* Classwork1 */,
 				0455D31B2460A89C007C12EC /* Assets.xcassets */,
+				04A326372461D31700B04FFE /* MovieApp */,
 				0455D3202460A89C007C12EC /* LaunchScreen.storyboard */,
 				0455D3232460A89C007C12EC /* Info.plist */,
 				0455D31D2460A89C007C12EC /* Preview Content */,
@@ -73,6 +82,25 @@
 				0455D31E2460A89C007C12EC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04A326362460B0A200B04FFE /* Classwork1 */ = {
+			isa = PBXGroup;
+			children = (
+				0455D3192460A899007C12EC /* ContentView.swift */,
+				0455D3292460A962007C12EC /* secondView.swift */,
+			);
+			path = Classwork1;
+			sourceTree = "<group>";
+		};
+		04A326372461D31700B04FFE /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+				0455D32C2460AFDB007C12EC /* MovieApp.swift */,
+				04A3263A2461DD9D00B04FFE /* movieDetails.swift */,
+				04A3263C24647A8B00B04FFE /* Movie.swift */,
+			);
+			path = MovieApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A3263D24647A8B00B04FFE /* Movie.swift in Sources */,
 				0455D3162460A899007C12EC /* AppDelegate.swift in Sources */,
 				0455D3182460A899007C12EC /* SceneDelegate.swift in Sources */,
+				04A3263B2461DD9D00B04FFE /* movieDetails.swift in Sources */,
+				0455D32D2460AFDB007C12EC /* MovieApp.swift in Sources */,
+				0455D32A2460A962007C12EC /* secondView.swift in Sources */,
 				0455D31A2460A899007C12EC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
